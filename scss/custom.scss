@@ -1,8 +1,39 @@
 // Your variable overrides
-$body-bg: #000;
-$body-color: white;
-$primary: hotpink;
-$font-family-base: Arial;
+$body-bg: #eee2d3;
+$body-color: black;
+$primary: #4c9461;
+$font-family-base: "Montserrat", sans-serif;
+$background-color: white;
+$jumbotron-bg: white;
+$h2-font-size: 0.8rem;
 
-// Include all Bootstrap
+.nav-link,
+.navbar-brand {
+  color: black;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+  font-size: small;
+}
+
+.nav-link:hover {
+  background: #f4f4f4;
+  color: $primary;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  background: #fff !important;
+}
+
+//#EEE2D3
+//#4c9461
+//#f1f0ee
+
+// Include all Bootstrap @import
 @import "../node_modules/bootstrap/scss/bootstrap";
