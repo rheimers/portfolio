@@ -11,13 +11,131 @@
     <!-- Custom Bootstrap CSS -->
     <link rel="stylesheet" href="css/custom.css" />
 
-    <title>Hello, world!</title>
+    <!--add Cutive Montserrat Light and Lora Regular-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300"
+      rel="stylesheet"
+    />
+    <title>ABOUT</title>
   </head>
+  <header>
+    <!-- add navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="#">RH</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-4">
+          <li class="nav-item">
+            <a class="nav-link" data-value="thatsme" href="#about"
+              >THAT'S ME.</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-value="motivation" href="#motivation"
+              >MY MOTIVATION.</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-value="contact" href="#getintouch"
+              >GET IN TOUCH.</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
   <body>
-    <h1>Hello, world!</h1>
-    <button class="btn btn-primary">Click me</button>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h1>Hello there!</h1>
+            <h2>I am Regine Heimers.</h2>
+            <p class="lead">
+              Consumer Behavior Specialist, Wine & Spirits Geek, Web Developer
+              in the Making
+            </p>
+
+            <p>
+              <a id="mystory" href="about" style="font-size: small;"
+                >THAT'S ME.</a
+              >
+            </p>
+          </div>
+          <div class="col-sm"></div>
+        </div>
+      </div>
+    </div>
+    <!-- adding the that's me section -->
+    <div class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-7">
+            <p>
+              I am a consumer behavior specialist with a passion for customers,
+              experience marketing as well as creative tasks. I love to develop
+              new projects and to proceed from concept to action. With eight
+              years of experience in marketing research and over ten years of
+              experience in the wine and spirits practice.... Besides, you find
+              me either on concerts, discovering the world (currently mainly in
+              the kitchen); restoring old furniture or on my yoga mat.
+            </p>
+          </div>
+          <div class="col-2 desc">
+            <h2 id="about">
+              THAT'S ME.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="motivation">
+      <div container>
+        <div class="row">
+          <div class="col-sm desc">
+            <!-- motivation part -->
+            <h2 id="motivation">MY MOTIVATION.</h2>
+          </div>
+          <div class="col-9 desc">
+            <p>
+              My inital motivation starts actually with the Data Science course.
+              I simply thought this might me the perfect complement for my CV.
+              But something told me that this won't be the right path. Although,
+              I have been in data science the past view years, I never saw as an
+              analyst. I always loved to develop the projects and was even more
+              happy when a syntax I wrote finally worked. So here I am - I have
+              no idea, but i have a feeling ;-)
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Get in touch -->
+    <div class="getintouch">
+      <div class="container">
+        <div class="row">
+          <div class="col-7"></div>
+          <p>
+            EMAIL LINKEDIN GITHUB CODEPEN
+          </p>
+          <div class="col-2 desc">
+            <h2 id="getintouch">GET IN TOUCH.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

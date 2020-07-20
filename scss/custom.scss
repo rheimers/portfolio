@@ -1,8 +1,96 @@
 // Your variable overrides
-$body-bg: #000;
-$body-color: white;
-$primary: hotpink;
-$font-family-base: Arial;
+$body-bg: #eee2d3;
+$body-color: black;
+$primary: #35a7ff;
+$font-family-base: "Montserrat", sans-serif;
+$background-color: white;
+$jumbotron-bg: white;
+$h2-font-size: 1.5rem;
+$jumbotron-padding: 5em !default;
 
-// Include all Bootstrap
+// customize navbar
+
+.navbar .fixed-top {
+  background: white;
+}
+
+.nav-link,
+.navbar-brand {
+  color: black;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+  font-size: small;
+}
+
+.nav-link:hover {
+  color: $primary;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  background: #fff !important;
+}
+
+// getting this jumbotron thing to work
+.jumbotron {
+  background-image: url(../assets/cvpic.png);
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: 80%;
+  background-size: 24rem;
+}
+
+//adding the that'* me section
+.about .desc {
+  padding: 6em;
+  border-left: 4px solid $primary;
+}
+.about .desc h2 {
+  color: $primary;
+}
+.about .desc p {
+  line-height: 2;
+}
+//adding the motivation section
+.motivation {
+  background-color: white;
+}
+.motivation .desc {
+  padding: 6em;
+  border-left: 4px solid $primary;
+}
+.motivation .desc h2 {
+  color: $primary;
+}
+.motivation .desc p {
+  line-height: 2;
+
+  //adding the getintouch section
+  .getintouch .desc {
+    padding: 8em;
+    border-left: 4px solid $primary;
+  }
+  .getintouch .desc h2 {
+    color: $primary;
+  }
+  .getintouch .desc p {
+    line-height: 2;
+  }
+}
+
+h2 {
+  color: $primary;
+}
+
+//#EEE2D3
+//#4c9461
+//#f1f0ee
+
+// Include all Bootstrap @import
 @import "../node_modules/bootstrap/scss/bootstrap";
