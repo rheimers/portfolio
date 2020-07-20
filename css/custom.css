@@ -63,19 +63,38 @@
 .motivation .desc p {
   line-height: 2;
 }
-.motivation .desc p .getintouch .desc {
-  padding: 8em;
+
+.getintouch .desc {
+  padding: 6em;
   border-left: 4px solid #35a7ff;
 }
-.motivation .desc p .getintouch .desc h2 {
+
+.getintouch .desc h2 {
   color: #35a7ff;
 }
-.motivation .desc p .getintouch .desc p {
+
+.getintouch .desc p {
   line-height: 2;
 }
 
 h2 {
   color: #35a7ff;
+}
+
+btn {
+  background-color: #35a7ff;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.fa {
+  padding: 20px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
 }
 
 /*!

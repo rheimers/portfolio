@@ -16,126 +16,168 @@
       href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300"
       rel="stylesheet"
     />
+    <!-- add download button source -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <title>ABOUT</title>
   </head>
   <header>
     <!-- add navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <a class="navbar-brand" href="#">RH</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-4">
-          <li class="nav-item">
-            <a class="nav-link" data-value="thatsme" href="#about"
-              >THAT'S ME.</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-value="motivation" href="#motivation"
-              >MY MOTIVATION.</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-value="contact" href="#getintouch"
-              >GET IN TOUCH.</a
-            >
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <body>
-    <div class="jumbotron">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <h1>Hello there!</h1>
-            <h2>I am Regine Heimers.</h2>
-            <p class="lead">
-              Consumer Behavior Specialist, Wine & Spirits Geek, Web Developer
-              in the Making
-            </p>
-
-            <p>
-              <a id="mystory" href="about" style="font-size: small;"
+    <section>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#">RH</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-4">
+            <li class="nav-item">
+              <a class="nav-link" data-value="thatsme" href="#about"
                 >THAT'S ME.</a
               >
-            </p>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-value="motivation" href="#motivation"
+                >MY MOTIVATION.</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-value="contact" href="#getintouch"
+                >GET IN TOUCH.</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <!-- Create Jumbotron -->
+  </header>
+  <body>
+    <section>
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <h1>Hello there!</h1>
+              <h2>I am Regine Heimers.</h2>
+              <p class="lead">
+                Consumer Behavior Specialist, Wine & Spirits Geek, Web Developer
+                in the Making
+              </p>
+
+              <!-- add download button -->
+              <button class="btn">
+                <a href="assets/cv-regine-heimers.pdf" class="button" download
+                  ><i class="fa fa-download"></i
+                ></a>
+                Download CV
+              </button>
+            </div>
+            <div class="col-sm"></div>
           </div>
-          <div class="col-sm"></div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- adding the that's me section -->
-    <div class="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-7">
-            <p>
-              I am a consumer behavior specialist with a passion for customers,
-              experience marketing as well as creative tasks. I love to develop
-              new projects and to proceed from concept to action. With eight
-              years of experience in marketing research and over ten years of
-              experience in the wine and spirits practice.... Besides, you find
-              me either on concerts, discovering the world (currently mainly in
-              the kitchen); restoring old furniture or on my yoga mat.
-            </p>
-          </div>
-          <div class="col-2 desc">
-            <h2 id="about">
-              THAT'S ME.
-            </h2>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="motivation">
-      <div container>
-        <div class="row">
-          <div class="col-sm desc">
-            <!-- motivation part -->
-            <h2 id="motivation">MY MOTIVATION.</h2>
-          </div>
-          <div class="col-9 desc">
-            <p>
-              My inital motivation starts actually with the Data Science course.
-              I simply thought this might me the perfect complement for my CV.
-              But something told me that this won't be the right path. Although,
-              I have been in data science the past view years, I never saw as an
-              analyst. I always loved to develop the projects and was even more
-              happy when a syntax I wrote finally worked. So here I am - I have
-              no idea, but i have a feeling ;-)
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <section>
+      <div class="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-7">
+              <p>
+                I am a consumer behavior specialist with a passion for
+                data-driven marketing, customer-oriented solutions as well as
+                creative tasks. I love to develop new projects and to proceed
+                from concept to action. With eight years of experience in
+                marketing research and over ten years of experience in the wine
+                and spirits practice, I strive to discover what it takes to
+                create digital customer experiences. Besides, you find me either
+                exploring music and the latest podcasts on Spotify, discovering
+                the world (currently mainly from the kitchen), restoring old
+                furniture or on my yoga mat.
+              </p>
+            </div>
 
+            <div class="col-2 desc">
+              <h2 class="about">
+                THAT'S ME.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- motivation part -->
+    <section>
+      <div class="motivation">
+        <div container>
+          <div class="row">
+            <div class="col-sm desc">
+              <h2 id="motivation">MY MOTIVATION.</h2>
+            </div>
+            <div class="col-9 desc">
+              <p>
+                I wanted to code, I wanted to improve my knowledge in the
+                digital area and I searched for an applied course. To be honest,
+                due to my background in marketing research, I initially
+                considered the Data Science course as the choice. However, I
+                have always loved to develop and design new projects, and I was
+                even more thrilled when a program I wrote finally worked. So Web
+                Development it is - starting from scratch with a good feeling.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Get in touch -->
-    <div class="getintouch">
-      <div class="container">
-        <div class="row">
-          <div class="col-7"></div>
-          <p>
-            EMAIL LINKEDIN GITHUB CODEPEN
-          </p>
-          <div class="col-2 desc">
-            <h2 id="getintouch">GET IN TOUCH.</h2>
+    <footer>
+      <section>
+        <div class="about">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-7">
+                <p>
+                  <a
+                    href="mailto: regineheimerslgmail.com"
+                    class="fa fa-google"
+                  ></a>
+                  <a
+                    href="https://github.com/rheimers"
+                    class="fa fa-github"
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/regineheimers"
+                    class="fa fa-linkedin"
+                  ></a>
+                </p>
+              </div>
+
+              <div class="col-2 desc">
+                <h2 id="getintouch">
+                  GET IN TOUCH.
+                </h2>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-
+      </section>
+    </footer>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

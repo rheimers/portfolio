@@ -70,22 +70,41 @@ $jumbotron-padding: 5em !default;
 }
 .motivation .desc p {
   line-height: 2;
+}
 
-  //adding the getintouch section
-  .getintouch .desc {
-    padding: 8em;
-    border-left: 4px solid $primary;
-  }
-  .getintouch .desc h2 {
-    color: $primary;
-  }
-  .getintouch .desc p {
-    line-height: 2;
-  }
+//adding the getintouch section
+.getintouch .desc {
+  padding: 6em;
+  border-left: 4px solid $primary;
+}
+.getintouch .desc h2 {
+  color: $primary;
+}
+.getintouch .desc p {
+  line-height: 2;
 }
 
 h2 {
   color: $primary;
+}
+//button style
+
+btn {
+  background-color: $primary;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+//icons
+
+.fa {
+  padding: 20px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
 }
 
 //#EEE2D3
